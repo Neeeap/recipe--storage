@@ -11,5 +11,16 @@ h2{
     margin-top: 0;
     width:fit-content;
     margin-right: auto;
-    margin-left: 10%;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+    border: solid 10px blue;
+    background-color: green;
+    margin: 0;
+}
+div{
+    padding: 0;
+    border: solid 10px red;
+    margin-bottom: 3%;
 }
