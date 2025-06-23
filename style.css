@@ -31,3 +31,7 @@ h1{
     justify-content: space-between;
     margin:0 10%;
 }
+img{
+    height:40%;
+    width: 40%;
+}
