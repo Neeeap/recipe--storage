@@ -6,21 +6,28 @@ ol, ul {
     font-size: large;
 }
 h2{
-    padding: 30px;
+    padding: 1%;
     border: solid 3px blue;
-    margin-top: 0;
-    width:fit-content;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 10%;
+    flex: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 h1{
     text-align: center;
     border: solid 10px blue;
     background-color: green;
-    margin: 0;
 }
-div{
-    padding: 0;
-    border: solid 10px red;
-    margin-bottom: 3%;
+.flex{
+    display: flex;
+    margin: 0 10%;
+    width: auto;
+    flex-direction: column;
+    height: 100px;
+}
+#images{
+    display:flex;
+    justify-content: space-between;
+    margin:0 10%;
 }
