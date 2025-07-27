@@ -1,3 +1,6 @@
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 ol, ul {
     margin-top: 0;
     width:fit-content;
@@ -6,10 +9,10 @@ ol, ul {
     font-size: large;
 }
 h2{
-    padding: 1%;
+    padding:1%;
     border: solid 3px blue;
     margin: 0 10%;
-    flex: auto;
+    margin-bottom: 20px;
     display: flex;
     border-radius: 10px;
     flex: 0 0 auto;
@@ -37,4 +40,7 @@ img{
 }
 a{
     text-decoration: none;
+}
+table{
+    border: 2px solid black;
 }
